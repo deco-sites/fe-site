@@ -1,7 +1,7 @@
 {
   "__resolveType": "site/sections/Header/Header.tsx",
   "searchbar": {
-    "placeholder": "What are you looking for?",
+    "placeholder": "O",
     "loader": {
       "__resolveType": "resolved",
       "data": null
@@ -11,10 +11,10 @@
     "<p>Get 10% off today: <strong>NEW10</strong></p>"
   ],
   "logo": {
-    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/ed9f7e80-86a8-4b72-9809-2e4e2e5f0e53",
-    "alt": "Deco Storefront",
-    "width": 160,
-    "height": 40
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12362/d0b070ae-4a22-43f0-9b8c-64f8dd2be57c",
+    "alt": "Fe Imports logo",
+    "width": 200,
+    "height": 35
   },
   "navItems": [
     {
@@ -31,37 +31,19 @@
         }
       ],
       "@type": "SiteNavigationElement",
-      "url": "/deals",
-      "name": "Deals"
+      "url": "/moto",
+      "name": "Moto"
     },
     {
       "@type": "SiteNavigationElement",
-      "url": "/valentines-day",
-      "name": "Valentine's Day",
+      "url": "/carro",
+      "name": "Carro",
       "children": []
     },
     {
       "@type": "SiteNavigationElement",
-      "url": "/women",
-      "name": "Women",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/men",
-      "name": "Men",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/clearance",
-      "name": "Clearance",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/activities",
-      "name": "Activities",
+      "url": "/troca-eixo",
+      "name": "Troca de eixo",
       "children": []
     }
   ],

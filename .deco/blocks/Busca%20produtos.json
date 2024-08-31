@@ -1,0 +1,6 @@
+{
+  "__resolveType": "nuvemshop/loaders/productList.ts",
+  "limit": 5,
+  "sort": "user",
+  "term": "peso"
+}
