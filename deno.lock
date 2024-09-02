@@ -7,8 +7,7 @@
       "jsr:@deco/durable@^0.5.3": "jsr:@deco/durable@0.5.3",
       "jsr:@deco/inspect-vscode@0.2.1": "jsr:@deco/inspect-vscode@0.2.1",
       "jsr:@deno/cache-dir@0.10.1": "jsr:@deno/cache-dir@0.10.1",
-      "jsr:@deno/graph@^0.73.1": "jsr:@deno/graph@0.73.1",
-      "jsr:@hono/hono@^4.5.4": "jsr:@hono/hono@4.5.9",
+      "jsr:@hono/hono@^4.5.4": "jsr:@hono/hono@4.5.10",
       "jsr:@luca/esbuild-deno-loader@0.10.3": "jsr:@luca/esbuild-deno-loader@0.10.3",
       "jsr:@std/assert@^0.213.1": "jsr:@std/assert@0.213.1",
       "jsr:@std/assert@^0.223.0": "jsr:@std/assert@0.223.0",
@@ -55,7 +54,6 @@
       "npm:@opentelemetry/exporter-trace-otlp-proto@0.52.1": "npm:@opentelemetry/exporter-trace-otlp-proto@0.52.1_@opentelemetry+api@1.9.0",
       "npm:@opentelemetry/instrumentation-fetch@0.52.1": "npm:@opentelemetry/instrumentation-fetch@0.52.1_@opentelemetry+api@1.9.0",
       "npm:@opentelemetry/instrumentation@0.52.1": "npm:@opentelemetry/instrumentation@0.52.1_@opentelemetry+api@1.9.0",
-      "npm:@opentelemetry/otlp-exporter-base@0.52.1": "npm:@opentelemetry/otlp-exporter-base@0.52.1_@opentelemetry+api@1.9.0",
       "npm:@opentelemetry/resources@1.25.1": "npm:@opentelemetry/resources@1.25.1_@opentelemetry+api@1.9.0",
       "npm:@opentelemetry/sdk-logs@0.52.1": "npm:@opentelemetry/sdk-logs@0.52.1_@opentelemetry+api@1.9.0",
       "npm:@opentelemetry/sdk-metrics@1.25.1": "npm:@opentelemetry/sdk-metrics@1.25.1_@opentelemetry+api@1.9.0",
@@ -69,8 +67,6 @@
       "npm:@supabase/realtime-js@2.10.2": "npm:@supabase/realtime-js@2.10.2",
       "npm:@supabase/storage-js@2.6.0": "npm:@supabase/storage-js@2.6.0",
       "npm:@swc/wasm-web@1.5.25": "npm:@swc/wasm-web@1.5.25",
-      "npm:@swc/wasm@1.3.76": "npm:@swc/wasm@1.3.76",
-      "npm:@types/json-schema@7.0.11": "npm:@types/json-schema@7.0.11",
       "npm:autoprefixer@10.4.14": "npm:autoprefixer@10.4.14_postcss@8.4.27",
       "npm:colorjs.io@0.5.2": "npm:colorjs.io@0.5.2",
       "npm:cssnano@6.0.1": "npm:cssnano@6.0.1_postcss@8.4.27",
@@ -82,7 +78,6 @@
       "npm:tailwindcss@3.4.1": "npm:tailwindcss@3.4.1_postcss@8.4.27",
       "npm:ua-parser-js@2.0.0-beta.2": "npm:ua-parser-js@2.0.0-beta.2",
       "npm:unique-names-generator@4.7.1": "npm:unique-names-generator@4.7.1",
-      "npm:utility-types@3.10.0": "npm:utility-types@3.10.0",
       "npm:weak-lru-cache@1.0.0": "npm:weak-lru-cache@1.0.0"
     },
     "jsr": {
@@ -90,10 +85,7 @@
         "integrity": "64540c79e023605f1c3cee2a50291d4d83d495b89a2b32c99fd3c2fbf445971c"
       },
       "@deco/deno-ast-wasm@0.5.0": {
-        "integrity": "19b5b92803a21e4ad2dde1b44b0f3d3bad6931cb56c421be083595f5c3729c92",
-        "dependencies": [
-          "npm:@swc/wasm@1.3.76"
-        ]
+        "integrity": "19b5b92803a21e4ad2dde1b44b0f3d3bad6931cb56c421be083595f5c3729c92"
       },
       "@deco/durable@0.5.3": {
         "integrity": "ed939fa140f0a4c7a21c3a622e5bdf21a93cb824d7c44a098dcad9b7315e4561"
@@ -108,18 +100,14 @@
       "@deno/cache-dir@0.10.1": {
         "integrity": "30f0a3b975df62adebd859a56f285873c56c6e68190e4370c7a539c6664559ad",
         "dependencies": [
-          "jsr:@deno/graph@^0.73.1",
           "jsr:@std/fmt@^0.223",
           "jsr:@std/fs@^0.223",
           "jsr:@std/io@^0.223",
           "jsr:@std/path@^0.223"
         ]
       },
-      "@deno/graph@0.73.1": {
-        "integrity": "cd69639d2709d479037d5ce191a422eabe8d71bb68b0098344f6b07411c84d41"
-      },
-      "@hono/hono@4.5.9": {
-        "integrity": "47f561e67aedbd6d1e21e3a1ae26c1b80ffdb62a51c161d502e75bee17ca40af"
+      "@hono/hono@4.5.10": {
+        "integrity": "801fe47e233b53480322f7a17c621ceb5e9b4335e5fdc14cfc0c7696e8396c34"
       },
       "@luca/esbuild-deno-loader@0.10.3": {
         "integrity": "32fc93f7e7f78060234fd5929a740668aab1c742b808c6048b57f9aaea514921",
@@ -604,16 +592,8 @@
         "integrity": "sha512-hwX3Oficta3Ok9hAjWUnsxrRCXPCnQ+NlsiQtd0a6qQIqLnG3q+TptSvf23qCVeWIdoUyu25fFa/55jDOCtDVw==",
         "dependencies": {}
       },
-      "@swc/wasm@1.3.76": {
-        "integrity": "sha512-AgI1dbzYFn4jXlD6sGJ/xn0KXSoAGHHUFlobSJi6EqA8AKUD3penlPSiRSUi+4rPQzhVDKLh8rKH1GgQOdWcBg==",
-        "dependencies": {}
-      },
       "@trysound/sax@0.2.0": {
         "integrity": "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==",
-        "dependencies": {}
-      },
-      "@types/json-schema@7.0.11": {
-        "integrity": "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==",
         "dependencies": {}
       },
       "@types/node@18.16.19": {
@@ -681,7 +661,7 @@
         "integrity": "sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "caniuse-lite": "caniuse-lite@1.0.30001653",
+          "caniuse-lite": "caniuse-lite@1.0.30001655",
           "fraction.js": "fraction.js@4.3.7",
           "normalize-range": "normalize-range@0.1.2",
           "picocolors": "picocolors@1.0.1",
@@ -716,7 +696,7 @@
       "browserslist@4.23.3": {
         "integrity": "sha512-btwCFJVjI4YWDNfau8RhZ+B1Q/VLoUITrm3RlP6y1tYGWIOa+InuYiRGXUBXo8nA1qKmHMyLB/iVQg5TT4eFoA==",
         "dependencies": {
-          "caniuse-lite": "caniuse-lite@1.0.30001653",
+          "caniuse-lite": "caniuse-lite@1.0.30001655",
           "electron-to-chromium": "electron-to-chromium@1.5.13",
           "node-releases": "node-releases@2.0.18",
           "update-browserslist-db": "update-browserslist-db@1.1.0_browserslist@4.23.3"
@@ -730,13 +710,13 @@
         "integrity": "sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "caniuse-lite": "caniuse-lite@1.0.30001653",
+          "caniuse-lite": "caniuse-lite@1.0.30001655",
           "lodash.memoize": "lodash.memoize@4.1.2",
           "lodash.uniq": "lodash.uniq@4.5.0"
         }
       },
-      "caniuse-lite@1.0.30001653": {
-        "integrity": "sha512-XGWQVB8wFQ2+9NZwZ10GxTYC5hk0Fa+q8cSkr0tgvMhYhMHP/QC+WTgrePMDBWiWc/pV+1ik82Al20XOK25Gcw==",
+      "caniuse-lite@1.0.30001655": {
+        "integrity": "sha512-jRGVy3iSGO5Uutn2owlb5gR6qsGngTw9ZTb4ali9f3glshcNmJ2noam4Mo9zia5P9Dk3jNNydy7vQjuE5dQmfg==",
         "dependencies": {}
       },
       "chokidar@3.6.0": {
@@ -790,10 +770,10 @@
           "which": "which@2.0.2"
         }
       },
-      "css-declaration-sorter@7.2.0_postcss@8.4.41": {
+      "css-declaration-sorter@7.2.0_postcss@8.4.44": {
         "integrity": "sha512-h70rUM+3PNFuaBDTLe8wF/cdWu+dOZmb7pJt8Z2sedYbAcQVQV/tEchueg3GWxwqS0cxtbxmaHEdkNACqcvsow==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
       "css-select@5.1.0": {
@@ -835,52 +815,52 @@
         "integrity": "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==",
         "dependencies": {}
       },
-      "cssnano-preset-default@6.1.2_postcss@8.4.41": {
+      "cssnano-preset-default@6.1.2_postcss@8.4.44": {
         "integrity": "sha512-1C0C+eNaeN8OcHQa193aRgYexyJtU8XwbdieEjClw+J9d94E41LwT6ivKH0WT+fYwYWB0Zp3I3IZ7tI/BbUbrg==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "css-declaration-sorter": "css-declaration-sorter@7.2.0_postcss@8.4.41",
-          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.41",
-          "postcss": "postcss@8.4.41",
-          "postcss-calc": "postcss-calc@9.0.1_postcss@8.4.41",
-          "postcss-colormin": "postcss-colormin@6.1.0_postcss@8.4.41",
-          "postcss-convert-values": "postcss-convert-values@6.1.0_postcss@8.4.41",
-          "postcss-discard-comments": "postcss-discard-comments@6.0.2_postcss@8.4.41",
-          "postcss-discard-duplicates": "postcss-discard-duplicates@6.0.3_postcss@8.4.41",
-          "postcss-discard-empty": "postcss-discard-empty@6.0.3_postcss@8.4.41",
-          "postcss-discard-overridden": "postcss-discard-overridden@6.0.2_postcss@8.4.41",
-          "postcss-merge-longhand": "postcss-merge-longhand@6.0.5_postcss@8.4.41",
-          "postcss-merge-rules": "postcss-merge-rules@6.1.1_postcss@8.4.41",
-          "postcss-minify-font-values": "postcss-minify-font-values@6.1.0_postcss@8.4.41",
-          "postcss-minify-gradients": "postcss-minify-gradients@6.0.3_postcss@8.4.41",
-          "postcss-minify-params": "postcss-minify-params@6.1.0_postcss@8.4.41",
-          "postcss-minify-selectors": "postcss-minify-selectors@6.0.4_postcss@8.4.41",
-          "postcss-normalize-charset": "postcss-normalize-charset@6.0.2_postcss@8.4.41",
-          "postcss-normalize-display-values": "postcss-normalize-display-values@6.0.2_postcss@8.4.41",
-          "postcss-normalize-positions": "postcss-normalize-positions@6.0.2_postcss@8.4.41",
-          "postcss-normalize-repeat-style": "postcss-normalize-repeat-style@6.0.2_postcss@8.4.41",
-          "postcss-normalize-string": "postcss-normalize-string@6.0.2_postcss@8.4.41",
-          "postcss-normalize-timing-functions": "postcss-normalize-timing-functions@6.0.2_postcss@8.4.41",
-          "postcss-normalize-unicode": "postcss-normalize-unicode@6.1.0_postcss@8.4.41",
-          "postcss-normalize-url": "postcss-normalize-url@6.0.2_postcss@8.4.41",
-          "postcss-normalize-whitespace": "postcss-normalize-whitespace@6.0.2_postcss@8.4.41",
-          "postcss-ordered-values": "postcss-ordered-values@6.0.2_postcss@8.4.41",
-          "postcss-reduce-initial": "postcss-reduce-initial@6.1.0_postcss@8.4.41",
-          "postcss-reduce-transforms": "postcss-reduce-transforms@6.0.2_postcss@8.4.41",
-          "postcss-svgo": "postcss-svgo@6.0.3_postcss@8.4.41",
-          "postcss-unique-selectors": "postcss-unique-selectors@6.0.4_postcss@8.4.41"
+          "css-declaration-sorter": "css-declaration-sorter@7.2.0_postcss@8.4.44",
+          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.44",
+          "postcss": "postcss@8.4.44",
+          "postcss-calc": "postcss-calc@9.0.1_postcss@8.4.44",
+          "postcss-colormin": "postcss-colormin@6.1.0_postcss@8.4.44",
+          "postcss-convert-values": "postcss-convert-values@6.1.0_postcss@8.4.44",
+          "postcss-discard-comments": "postcss-discard-comments@6.0.2_postcss@8.4.44",
+          "postcss-discard-duplicates": "postcss-discard-duplicates@6.0.3_postcss@8.4.44",
+          "postcss-discard-empty": "postcss-discard-empty@6.0.3_postcss@8.4.44",
+          "postcss-discard-overridden": "postcss-discard-overridden@6.0.2_postcss@8.4.44",
+          "postcss-merge-longhand": "postcss-merge-longhand@6.0.5_postcss@8.4.44",
+          "postcss-merge-rules": "postcss-merge-rules@6.1.1_postcss@8.4.44",
+          "postcss-minify-font-values": "postcss-minify-font-values@6.1.0_postcss@8.4.44",
+          "postcss-minify-gradients": "postcss-minify-gradients@6.0.3_postcss@8.4.44",
+          "postcss-minify-params": "postcss-minify-params@6.1.0_postcss@8.4.44",
+          "postcss-minify-selectors": "postcss-minify-selectors@6.0.4_postcss@8.4.44",
+          "postcss-normalize-charset": "postcss-normalize-charset@6.0.2_postcss@8.4.44",
+          "postcss-normalize-display-values": "postcss-normalize-display-values@6.0.2_postcss@8.4.44",
+          "postcss-normalize-positions": "postcss-normalize-positions@6.0.2_postcss@8.4.44",
+          "postcss-normalize-repeat-style": "postcss-normalize-repeat-style@6.0.2_postcss@8.4.44",
+          "postcss-normalize-string": "postcss-normalize-string@6.0.2_postcss@8.4.44",
+          "postcss-normalize-timing-functions": "postcss-normalize-timing-functions@6.0.2_postcss@8.4.44",
+          "postcss-normalize-unicode": "postcss-normalize-unicode@6.1.0_postcss@8.4.44",
+          "postcss-normalize-url": "postcss-normalize-url@6.0.2_postcss@8.4.44",
+          "postcss-normalize-whitespace": "postcss-normalize-whitespace@6.0.2_postcss@8.4.44",
+          "postcss-ordered-values": "postcss-ordered-values@6.0.2_postcss@8.4.44",
+          "postcss-reduce-initial": "postcss-reduce-initial@6.1.0_postcss@8.4.44",
+          "postcss-reduce-transforms": "postcss-reduce-transforms@6.0.2_postcss@8.4.44",
+          "postcss-svgo": "postcss-svgo@6.0.3_postcss@8.4.44",
+          "postcss-unique-selectors": "postcss-unique-selectors@6.0.4_postcss@8.4.44"
         }
       },
-      "cssnano-utils@4.0.2_postcss@8.4.41": {
+      "cssnano-utils@4.0.2_postcss@8.4.44": {
         "integrity": "sha512-ZR1jHg+wZ8o4c3zqf1SIUSTIvm/9mU343FMR6Obe/unskbvpGhZOo1J6d/r8D1pzkRQYuwbcH3hToOuoA2G7oQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
       "cssnano@6.0.1_postcss@8.4.27": {
         "integrity": "sha512-fVO1JdJ0LSdIGJq68eIxOqFpIJrZqXUsBt8fkrBcztCQqAjQD51OhZp7tc0ImcbwXD4k7ny84QTV90nZhmqbkg==",
         "dependencies": {
-          "cssnano-preset-default": "cssnano-preset-default@6.1.2_postcss@8.4.41",
+          "cssnano-preset-default": "cssnano-preset-default@6.1.2_postcss@8.4.44",
           "lilconfig": "lilconfig@2.1.0",
           "postcss": "postcss@8.4.27"
         }
@@ -964,8 +944,8 @@
         "integrity": "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==",
         "dependencies": {}
       },
-      "escalade@3.1.2": {
-        "integrity": "sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==",
+      "escalade@3.2.0": {
+        "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==",
         "dependencies": {}
       },
       "fast-glob@3.3.2": {
@@ -1242,54 +1222,54 @@
         "integrity": "sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==",
         "dependencies": {}
       },
-      "postcss-calc@9.0.1_postcss@8.4.41": {
+      "postcss-calc@9.0.1_postcss@8.4.44": {
         "integrity": "sha512-TipgjGyzP5QzEhsOZUaIkeO5mKeMFpebWzRogWG/ysonUlnHcq5aJe0jOjpfzUU8PeSaBQnrE8ehR0QA5vs8PQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-selector-parser": "postcss-selector-parser@6.1.2",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-colormin@6.1.0_postcss@8.4.41": {
+      "postcss-colormin@6.1.0_postcss@8.4.44": {
         "integrity": "sha512-x9yX7DOxeMAR+BgGVnNSAxmAj98NX/YxEMNFP+SDCEeNLb2r3i6Hh1ksMsnW8Ub5SLCpbescQqn9YEbE9554Sw==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
           "caniuse-api": "caniuse-api@3.0.0",
           "colord": "colord@2.9.3",
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-convert-values@6.1.0_postcss@8.4.41": {
+      "postcss-convert-values@6.1.0_postcss@8.4.44": {
         "integrity": "sha512-zx8IwP/ts9WvUM6NkVSkiU902QZL1bwPhaVaLynPtCsOTqp+ZKbNi+s6XJg3rfqpKGA/oc7Oxk5t8pOQJcwl/w==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-discard-comments@6.0.2_postcss@8.4.41": {
+      "postcss-discard-comments@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-65w/uIqhSBBfQmYnG92FO1mWZjJ4GL5b8atm5Yw2UgrwD7HiNiSSNwJor1eCFGzUgYnN/iIknhNRVqjrrpuglw==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
-      "postcss-discard-duplicates@6.0.3_postcss@8.4.41": {
+      "postcss-discard-duplicates@6.0.3_postcss@8.4.44": {
         "integrity": "sha512-+JA0DCvc5XvFAxwx6f/e68gQu/7Z9ud584VLmcgto28eB8FqSFZwtrLwB5Kcp70eIoWP/HXqz4wpo8rD8gpsTw==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
-      "postcss-discard-empty@6.0.3_postcss@8.4.41": {
+      "postcss-discard-empty@6.0.3_postcss@8.4.44": {
         "integrity": "sha512-znyno9cHKQsK6PtxL5D19Fj9uwSzC2mB74cpT66fhgOadEUPyXFkbgwm5tvc3bt3NAy8ltE5MrghxovZRVnOjQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
-      "postcss-discard-overridden@6.0.2_postcss@8.4.41": {
+      "postcss-discard-overridden@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-j87xzI4LUggC5zND7KdjsI25APtyMuynXZSujByMaav2roV6OZX+8AaCUcZSWqckZpjAjRyFDdpqybgjFO0HJQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
       "postcss-import@15.1.0_postcss@8.4.27": {
@@ -1316,53 +1296,53 @@
           "yaml": "yaml@2.5.0"
         }
       },
-      "postcss-merge-longhand@6.0.5_postcss@8.4.41": {
+      "postcss-merge-longhand@6.0.5_postcss@8.4.44": {
         "integrity": "sha512-5LOiordeTfi64QhICp07nzzuTDjNSO8g5Ksdibt44d+uvIIAE1oZdRn8y/W5ZtYgRH/lnLDlvi9F8btZcVzu3w==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0",
-          "stylehacks": "stylehacks@6.1.1_postcss@8.4.41"
+          "stylehacks": "stylehacks@6.1.1_postcss@8.4.44"
         }
       },
-      "postcss-merge-rules@6.1.1_postcss@8.4.41": {
+      "postcss-merge-rules@6.1.1_postcss@8.4.44": {
         "integrity": "sha512-KOdWF0gju31AQPZiD+2Ar9Qjowz1LTChSjFFbS+e2sFgc4uHOp3ZvVX4sNeTlk0w2O31ecFGgrFzhO0RSWbWwQ==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
           "caniuse-api": "caniuse-api@3.0.0",
-          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.41",
-          "postcss": "postcss@8.4.41",
+          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.44",
+          "postcss": "postcss@8.4.44",
           "postcss-selector-parser": "postcss-selector-parser@6.1.2"
         }
       },
-      "postcss-minify-font-values@6.1.0_postcss@8.4.41": {
+      "postcss-minify-font-values@6.1.0_postcss@8.4.44": {
         "integrity": "sha512-gklfI/n+9rTh8nYaSJXlCo3nOKqMNkxuGpTn/Qm0gstL3ywTr9/WRKznE+oy6fvfolH6dF+QM4nCo8yPLdvGJg==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-minify-gradients@6.0.3_postcss@8.4.41": {
+      "postcss-minify-gradients@6.0.3_postcss@8.4.44": {
         "integrity": "sha512-4KXAHrYlzF0Rr7uc4VrfwDJ2ajrtNEpNEuLxFgwkhFZ56/7gaE4Nr49nLsQDZyUe+ds+kEhf+YAUolJiYXF8+Q==",
         "dependencies": {
           "colord": "colord@2.9.3",
-          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.41",
-          "postcss": "postcss@8.4.41",
+          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.44",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-minify-params@6.1.0_postcss@8.4.41": {
+      "postcss-minify-params@6.1.0_postcss@8.4.44": {
         "integrity": "sha512-bmSKnDtyyE8ujHQK0RQJDIKhQ20Jq1LYiez54WiaOoBtcSuflfK3Nm596LvbtlFcpipMjgClQGyGr7GAs+H1uA==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.41",
-          "postcss": "postcss@8.4.41",
+          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.44",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-minify-selectors@6.0.4_postcss@8.4.41": {
+      "postcss-minify-selectors@6.0.4_postcss@8.4.44": {
         "integrity": "sha512-L8dZSwNLgK7pjTto9PzWRoMbnLq5vsZSTu8+j1P/2GB8qdtGQfn+K1uSvFgYvgh83cbyxT5m43ZZhUMTJDSClQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-selector-parser": "postcss-selector-parser@6.1.2"
         }
       },
@@ -1373,89 +1353,89 @@
           "postcss-selector-parser": "postcss-selector-parser@6.1.2"
         }
       },
-      "postcss-normalize-charset@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-charset@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-a8N9czmdnrjPHa3DeFlwqst5eaL5W8jYu3EBbTTkI5FHkfMhFZh1EGbku6jhHhIzTA6tquI2P42NtZ59M/H/kQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
-      "postcss-normalize-display-values@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-display-values@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-8H04Mxsb82ON/aAkPeq8kcBbAtI5Q2a64X/mnRRfPXBq7XeogoQvReqxEfc0B4WPq1KimjezNC8flUtC3Qz6jg==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-positions@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-positions@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-/JFzI441OAB9O7VnLA+RtSNZvQ0NCFZDOtp6QPFo1iIyawyXg0YI3CYM9HBy1WvwCRHnPep/BvI1+dGPKoXx/Q==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-repeat-style@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-repeat-style@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-YdCgsfHkJ2jEXwR4RR3Tm/iOxSfdRt7jplS6XRh9Js9PyCR/aka/FCb6TuHT2U8gQubbm/mPmF6L7FY9d79VwQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-string@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-string@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-vQZIivlxlfqqMp4L9PZsFE4YUkWniziKjQWUtsxUiVsSSPelQydwS8Wwcuw0+83ZjPWNTl02oxlIvXsmmG+CiQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-timing-functions@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-timing-functions@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-a+YrtMox4TBtId/AEwbA03VcJgtyW4dGBizPl7e88cTFULYsprgHWTbfyjSLyHeBcK/Q9JhXkt2ZXiwaVHoMzA==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-unicode@6.1.0_postcss@8.4.41": {
+      "postcss-normalize-unicode@6.1.0_postcss@8.4.44": {
         "integrity": "sha512-QVC5TQHsVj33otj8/JD869Ndr5Xcc/+fwRh4HAsFsAeygQQXm+0PySrKbr/8tkDKzW+EVT3QkqZMfFrGiossDg==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-url@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-url@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-kVNcWhCeKAzZ8B4pv/DnrU1wNh458zBNp8dh4y5hhxih5RZQ12QWMuQrDgPRw3LRl8mN9vOVfHl7uhvHYMoXsQ==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-normalize-whitespace@6.0.2_postcss@8.4.41": {
+      "postcss-normalize-whitespace@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-sXZ2Nj1icbJOKmdjXVT9pnyHQKiSAyuNQHSgRCUgThn2388Y9cGVDR+E9J9iAYbSbLHI+UUwLVl1Wzco/zgv0Q==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-ordered-values@6.0.2_postcss@8.4.41": {
+      "postcss-ordered-values@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-VRZSOB+JU32RsEAQrO94QPkClGPKJEL/Z9PCBImXMhIeK5KAYo6slP/hBYlLgrCjFxyqvn5VC81tycFEDBLG1Q==",
         "dependencies": {
-          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.41",
-          "postcss": "postcss@8.4.41",
+          "cssnano-utils": "cssnano-utils@4.0.2_postcss@8.4.44",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
-      "postcss-reduce-initial@6.1.0_postcss@8.4.41": {
+      "postcss-reduce-initial@6.1.0_postcss@8.4.44": {
         "integrity": "sha512-RarLgBK/CrL1qZags04oKbVbrrVK2wcxhvta3GCxrZO4zveibqbRPmm2VI8sSgCXwoUHEliRSbOfpR0b/VIoiw==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
           "caniuse-api": "caniuse-api@3.0.0",
-          "postcss": "postcss@8.4.41"
+          "postcss": "postcss@8.4.44"
         }
       },
-      "postcss-reduce-transforms@6.0.2_postcss@8.4.41": {
+      "postcss-reduce-transforms@6.0.2_postcss@8.4.44": {
         "integrity": "sha512-sB+Ya++3Xj1WaT9+5LOOdirAxP7dJZms3GRcYheSPi1PiTMigsxHAdkrbItHxwYHr4kt1zL7mmcHstgMYT+aiA==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0"
         }
       },
@@ -1466,18 +1446,18 @@
           "util-deprecate": "util-deprecate@1.0.2"
         }
       },
-      "postcss-svgo@6.0.3_postcss@8.4.41": {
+      "postcss-svgo@6.0.3_postcss@8.4.44": {
         "integrity": "sha512-dlrahRmxP22bX6iKEjOM+c8/1p+81asjKT+V5lrgOH944ryx/OHpclnIbGsKVd3uWOXFLYJwCVf0eEkJGvO96g==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-value-parser": "postcss-value-parser@4.2.0",
           "svgo": "svgo@3.3.2"
         }
       },
-      "postcss-unique-selectors@6.0.4_postcss@8.4.41": {
+      "postcss-unique-selectors@6.0.4_postcss@8.4.44": {
         "integrity": "sha512-K38OCaIrO8+PzpArzkLKB42dSARtC2tmG6PvD4b1o1Q2E9Os8jzfWFfSy/rixsHwohtsDdFtAWGjFVFUdwYaMg==",
         "dependencies": {
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-selector-parser": "postcss-selector-parser@6.1.2"
         }
       },
@@ -1493,8 +1473,8 @@
           "source-map-js": "source-map-js@1.2.0"
         }
       },
-      "postcss@8.4.41": {
-        "integrity": "sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==",
+      "postcss@8.4.44": {
+        "integrity": "sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==",
         "dependencies": {
           "nanoid": "nanoid@3.3.7",
           "picocolors": "picocolors@1.0.1",
@@ -1629,11 +1609,11 @@
           "ansi-regex": "ansi-regex@6.0.1"
         }
       },
-      "stylehacks@6.1.1_postcss@8.4.41": {
+      "stylehacks@6.1.1_postcss@8.4.44": {
         "integrity": "sha512-gSTTEQ670cJNoaeIp9KX6lZmm8LJ3jPB5yJmX8Zq/wQxOsAFXV3qjWzHas3YYk1qesuVIyYWWUpZ0vSE/dTSGg==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "postcss": "postcss@8.4.41",
+          "postcss": "postcss@8.4.44",
           "postcss-selector-parser": "postcss-selector-parser@6.1.2"
         }
       },
@@ -1730,16 +1710,12 @@
         "integrity": "sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==",
         "dependencies": {
           "browserslist": "browserslist@4.23.3",
-          "escalade": "escalade@3.1.2",
+          "escalade": "escalade@3.2.0",
           "picocolors": "picocolors@1.0.1"
         }
       },
       "util-deprecate@1.0.2": {
         "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
-        "dependencies": {}
-      },
-      "utility-types@3.10.0": {
-        "integrity": "sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==",
         "dependencies": {}
       },
       "weak-lru-cache@1.0.0": {
@@ -1790,11 +1766,7 @@
     }
   },
   "redirects": {
-    "https://esm.sh/v135/@types/babel__helper-validator-identifier@~7/index.d.ts": "https://esm.sh/v135/@types/babel__helper-validator-identifier@7.15.2/index.d.ts",
-    "https://esm.sh/v135/@types/he@~1.2/index.d.ts": "https://esm.sh/v135/@types/he@1.2.3/index.d.ts",
-    "https://esm.sh/v135/@types/katex@~0.16/index.d.ts": "https://esm.sh/v135/@types/katex@0.16.7/index.d.ts",
-    "https://esm.sh/v135/@types/prismjs@^1/index.d.ts": "https://esm.sh/v135/@types/prismjs@1.26.4/index.d.ts",
-    "https://esm.sh/v135/@types/sanitize-html@~2.8/index.d.ts": "https://esm.sh/v135/@types/sanitize-html@2.8.1/index.d.ts"
+    "https://esm.sh/v135/@types/babel__helper-validator-identifier@~7/index.d.ts": "https://esm.sh/v135/@types/babel__helper-validator-identifier@7.15.2/index.d.ts"
   },
   "remote": {
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.10/admin/widgets.ts": "fa00cb641a085cd414b4756566478e7f8ce1336533bfaa78594e3f96cdd78625",
@@ -2207,7 +2179,6 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/index.ts": "3b08726431df325491b9a7cf0344db91700f52fe720f2e55c3877fda977f0fcf",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/loader.ts": "94eb71aa5d3fb3379303711e78672d84cc06548bfd14affd8846af88834d9de4",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/matcher.ts": "8825b460d1aefd2a3751418c9ea4e37351ec35205e5238ee8c016da4e4681289",
-    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/mod.ts": "ad9ed63da5b49d3145cc673d600c72287c91e7a0024422715f98cf870b2f2496",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/page.tsx": "307a5fecea1d1de8a5c2832650018bc07a0d2432248e42d95fce47a14cbb1011",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/propsLoader.ts": "e8e65dc51f8e0c3a903334302b922e3c7be321badeb7a37d92d6059501df2b93",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/blocks/section.ts": "e13da47df754cdb87291c464a626a97aeb9b12da47106270f52056c802c12596",
@@ -2336,7 +2307,6 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/http.ts": "97be2c6be5225727e868c3b64415f408e278a8ed9aa8a53bfad7fd1dad877c7d",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/invoke.server.ts": "58834819289841e724a1c0c96aaf6cb131cb4ff9c6283207edd160ac1f7d297a",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/invoke.ts": "1a3116abd727ba9f2282ada4736a51d6f92d57a469f8c4ee4c874608fe7f062d",
-    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/invoke.types.ts": "d1f0a39474511053d2a6d5d35b5b3be1240b73b2de757e04acd09e8fff58da1c",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/json.ts": "11c5b73fed931e2a91c6ba476797750a98150530d5337e5609d687964756f046",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/log.ts": "8e52a43dbb1cfcd0c231fac70e726780f0cb64e1833db40b32005318ffdda63e",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.95.0/utils/metabase.tsx": "317b32c486b6caab6e694ef9cd6f46aad247b734fe12f9bd32a333036cd3f4fd",
@@ -2365,17 +2335,6 @@
     "https://deno.land/std@0.147.0/path/win32.ts": "bd7549042e37879c68ff2f8576a25950abbfca1d696d41d82c7bca0b7e6f452c",
     "https://deno.land/std@0.161.0/encoding/base64.ts": "c57868ca7fa2fbe919f57f88a623ad34e3d970d675bdc1ff3a9d02bba7409db2",
     "https://deno.land/std@0.161.0/encoding/base64url.ts": "a5f82a9fa703bd85a5eb8e7c1296bc6529e601ebd9642cc2b5eaa6b38fa9e05a",
-    "https://deno.land/std@0.173.0/async/abortable.ts": "73acfb3ed7261ce0d930dbe89e43db8d34e017b063cf0eaa7d215477bf53442e",
-    "https://deno.land/std@0.173.0/async/deadline.ts": "b98e50d2c42399af03ad13bbb8cf59dadb9f0cd5d70648cc0c3b9202d75ab565",
-    "https://deno.land/std@0.173.0/async/debounce.ts": "adab11d04ca38d699444ac8a9d9856b4155e8dda2afd07ce78276c01ea5a4332",
-    "https://deno.land/std@0.173.0/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
-    "https://deno.land/std@0.173.0/async/delay.ts": "73aa04cec034c84fc748c7be49bb15cac3dd43a57174bfdb7a4aec22c248f0dd",
-    "https://deno.land/std@0.173.0/async/mod.ts": "f04344fa21738e5ad6bea37a6bfffd57c617c2d372bb9f9dcfd118a1b622e576",
-    "https://deno.land/std@0.173.0/async/mux_async_iterator.ts": "70c7f2ee4e9466161350473ad61cac0b9f115cff4c552eaa7ef9d50c4cbb4cc9",
-    "https://deno.land/std@0.173.0/async/pool.ts": "fd082bd4aaf26445909889435a5c74334c017847842ec035739b4ae637ae8260",
-    "https://deno.land/std@0.173.0/async/retry.ts": "5efa3ba450ac0c07a40a82e2df296287b5013755d232049efd7ea2244f15b20f",
-    "https://deno.land/std@0.173.0/async/tee.ts": "47e42d35f622650b02234d43803d0383a89eb4387e1b83b5a40106d18ae36757",
-    "https://deno.land/std@0.173.0/http/server.ts": "cbb17b594651215ba95c01a395700684e569c165a567e4e04bba327f41197433",
     "https://deno.land/std@0.190.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
     "https://deno.land/std@0.190.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
     "https://deno.land/std@0.190.0/async/abortable.ts": "fd682fa46f3b7b16b4606a5ab52a7ce309434b76f820d3221bdfb862719a15d7",
@@ -2731,7 +2690,6 @@
     "https://deno.land/x/emoji@0.3.0/all.json": "f0553b660db5e44e71ca46f637a06c2ec94f34445a920fcf319858094a91f46b",
     "https://deno.land/x/emoji@0.3.0/emoji.ts": "ad21fa393b2b96fb5999f58dec18e13628cc5d11aa370c42a2f7cc8e135d43d8",
     "https://deno.land/x/emoji@0.3.0/mod.ts": "9ef5a2fca1a633f29747b6d3254afd19545cef586128a8213a1003ee2808186d",
-    "https://deno.land/x/emoji@0.3.0/types.ts": "5897345f500088c719a35388c5b192bc5d93fc2c13e37d94eafa8ff3480edd17",
     "https://deno.land/x/emoji@0.3.0/unicode.ts": "ac8079e8e1da66ae9e601c1fdd0e7641120c2b07ca7bd2875e65fe23e16e6199",
     "https://deno.land/x/esbuild@v0.20.2/mod.js": "67c608ee283233f5d0faa322b887356857c547a8e6a00981f798b2cd38e02436",
     "https://deno.land/x/esbuild@v0.20.2/wasm.js": "5a887c1e38ad1056af11c58d45b6084d33bd33a62afa480d805801739370eed0",
@@ -2838,7 +2796,7 @@
     "https://esm.sh/*@preact/signals@1.2.2": "8b174b406f1c00fdf3930fbb4ddc556162e6fd0dfe84a5ec300e9ac1776cbf42",
     "https://esm.sh/*preact-render-to-string@6.3.1": "07807f027acf54b994b630bbb2a923f5a835f9544e01144f67ab292e90a431e4",
     "https://esm.sh/@babel/helper-validator-identifier@7.22.20": "daace34e028130297fddf97f3ef6deb4b05ec3eb46f5c5cacd6eaa43d6323b0a",
-    "https://esm.sh/cockatiel@3.1.1?target=es2019": "d8f7d1b7de1bb24f4395774a36537f85e3e50640e3fc160d07fa333389044505",
+    "https://esm.sh/cockatiel@3.1.1?target=es2019": "62de2bbd53eb96e01bd7c5af7d69233c54f89de888635bcebf4fd61829751cea",
     "https://esm.sh/github-slugger@2.0.0?pin=v135": "77bdab3e2528daadc9b63f7c9615e85d4630a3e174aa94f48d207f3fd71d02c9",
     "https://esm.sh/he@1.2.0?pin=v135": "388a449d0b163506f1a5ed1b9fe178c29433c9a3af5b2465c92ec4adb0f35792",
     "https://esm.sh/katex@0.16.8/dist/katex.mjs?pin=v135": "9cf7668f77237b8993333732787ca8c98cfd26bed510a73e51762cf9a7ef07db",
@@ -2849,10 +2807,10 @@
     "https://esm.sh/preact@10.19.6/debug": "0e16b3e9f45372501b91ecf69b1bcaf2b2dad3ac470ce75113d957acbd5e277d",
     "https://esm.sh/preact@10.19.6/hooks": "3037d71a7794c70bacb2da5dd9520334c6a24b3a7a75a2eeec9f025f8dc549f1",
     "https://esm.sh/preact@10.19.6/jsx-runtime": "f4c9e5f72ef18435eab846ae02e315a63da724f64fb08d806d2ddeaf08d99bd8",
-    "https://esm.sh/prismjs@1.27.0/components/prism-diff.js?no-check": "0c58cb95503577a26e90d9d6bf53767e9f0f9c3a085d8455422415dd0e50addf",
-    "https://esm.sh/prismjs@1.27.0/components/prism-jsx.js?no-check": "16daaa59a0c67c171b7f0a2ca1b8d50b808c702553faccf1067c517d0aa236eb",
-    "https://esm.sh/prismjs@1.27.0/components/prism-tsx.js?no-check": "3a352cfaec495cb753638fa5aba1a903065103cf173e38c22d5bc31098c27194",
-    "https://esm.sh/prismjs@1.27.0/components/prism-typescript.js?no-check": "82e6652a9392d24f6dd0b2134a815c0166890cb1f1e467334e8f639683dda8b6",
+    "https://esm.sh/prismjs@1.27.0/components/prism-diff.js?no-check": "1844108bf09764d284b12f27f9f7697b67bd5e953c9fbeef66d32d84b6b7afa8",
+    "https://esm.sh/prismjs@1.27.0/components/prism-jsx.js?no-check": "aeea2427d7d36ac1c2ea319401321ab224a26a86fc8c62d0563abbfd0f6494c7",
+    "https://esm.sh/prismjs@1.27.0/components/prism-tsx.js?no-check": "6d1810eca7d3b259a69cc6e12f0b97b6c899d9e0ad20146435e2ab8427123ce5",
+    "https://esm.sh/prismjs@1.27.0/components/prism-typescript.js?no-check": "5c24a3eed8664ce1aec673dfe9b052a6aaff5324201dbb8f0602b21a73add1f0",
     "https://esm.sh/prismjs@1.29.0?pin=v135": "67e956514925401c964a7fc1205258ac2203cbd2aa246f55be11a3109fe9b6b9",
     "https://esm.sh/sanitize-html@2.8.1?target=esnext&pin=v135": "2605687c91e08c4a1e0c0b0966dc82fe4afea18bd1560a1c1ed03d79b69882ae",
     "https://esm.sh/stable/preact@10.19.6/denonext/compat.js": "a65ef066079d24ff3e3bc54d3e57502c5a0b95b5ce2fdcde3bed7c5b44936129",
@@ -2861,18 +2819,12 @@
     "https://esm.sh/stable/preact@10.19.6/denonext/hooks.js": "60270845e547f2e2c8d94cdb0bf9a0376e5b02bd6bb2b8694720274c2378890e",
     "https://esm.sh/stable/preact@10.19.6/denonext/jsx-runtime.js": "97e9eeb40443de53a8cb3b70f264d04db2bbfc5c2298fdb15d1c471283ccd6aa",
     "https://esm.sh/stable/preact@10.19.6/denonext/preact.mjs": "68491395d287895f4d697e403ded5b0ebb8fed0494f9e870c422bc017e5e52f5",
-    "https://esm.sh/v128/cockatiel@3.1.1/es2019/cockatiel.mjs": "bf4ab39432c66d462fd7cfb7ab2814937dbc19eb7af1ecd9a27fa25295dcf028",
-    "https://esm.sh/v128/node_events.js": "507b1d9405b8384264d683e0508416c4be85498e65d32d0fcf64d6d353a30151",
-    "https://esm.sh/v128/node_process.js": "138682d1c2af338932526443b7513103b898a9460d3e461ee315d3a68060342a",
-    "https://esm.sh/v133/prismjs@1.27.0/denonext/components/prism-diff.js": "f652153b1b3e6d0721f343085ba4ed515102f1e8ac8f9539312b4ac39597ba55",
-    "https://esm.sh/v133/prismjs@1.27.0/denonext/components/prism-jsx.js": "7fd7be4359fcd5c25cecdd70dd3a7b0e95f95709e53169b8abe92ad7da715a70",
-    "https://esm.sh/v133/prismjs@1.27.0/denonext/components/prism-tsx.js": "d17030f8b706e6bbea0503bc67ca0339377af0c8a86fa043be73220ec64fbf60",
-    "https://esm.sh/v133/prismjs@1.27.0/denonext/components/prism-typescript.js": "2864b0748ebd4a82e24df1db06054d5e01ee485309b70951aac485c68bd17d08",
     "https://esm.sh/v135/@babel/helper-validator-identifier@7.22.20/denonext/helper-validator-identifier.mjs": "1ad312a9040d1f3b096e90a3e6a9da7ecfc99662140852fe3862a316c2591c93",
     "https://esm.sh/v135/@preact/signals-core@1.5.1/denonext/signals-core.mjs": "dc36965311a6fda182378c0b3aec418ffe60fb2bb6020d9948d105862a27ddf8",
     "https://esm.sh/v135/@preact/signals@1.2.2/X-ZS8q/denonext/signals.mjs": "f2cb7b0335f75be2827049bf6a1ce3c6bd35e74c7a922a1eeb338b0312d61556",
     "https://esm.sh/v135/base64-js@1.5.1/esnext/base64-js.mjs": "349361f227d34ff80b673a7741ea0b509dbb6c9c89d650b86a0b55705e25c8dc",
     "https://esm.sh/v135/buffer@6.0.3/esnext/buffer.mjs": "f6de86b04b58a64f82d591b05fff1626ed7c8f4a9c7726c274c96abef31326c3",
+    "https://esm.sh/v135/cockatiel@3.1.1/es2019/cockatiel.mjs": "063968736d48a917ef63ce337b695ba7486ff532b64fa875d064b245f5384974",
     "https://esm.sh/v135/deepmerge@4.3.1/esnext/deepmerge.mjs": "426fb4ada3c99ddd720d7c28ce216d8fcb47543e3d64ead96d97b1103cc16487",
     "https://esm.sh/v135/dom-serializer@2.0.0/esnext/dom-serializer.mjs": "87460f6bde59cb3823912201b076223e5ab690c1075d071904567de591310bec",
     "https://esm.sh/v135/domelementtype@2.3.0/esnext/domelementtype.mjs": "1e4dd3222620668a50040012a6b0d1582e89e7a570826a079a11226a7929e20c",
@@ -2923,6 +2875,10 @@
     "https://esm.sh/v135/postcss@8.4.31/esnext/lib/warning.js": "ec2bac028c46d239e2d0de0e252bbc224a096fe89456669e021e2efc50d57c25",
     "https://esm.sh/v135/postcss@8.4.31/esnext/postcss.mjs": "21318d6ed521ffd9353a20e0775021e99d4686ebaef0350976451de4ad8013a5",
     "https://esm.sh/v135/preact-render-to-string@6.3.1/X-ZS8q/denonext/preact-render-to-string.mjs": "bcaceb8c3938310aee3dd4f7b6f2136cf0b2b890988c2e6679485e052e76e920",
+    "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-diff.js": "f652153b1b3e6d0721f343085ba4ed515102f1e8ac8f9539312b4ac39597ba55",
+    "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-jsx.js": "7fd7be4359fcd5c25cecdd70dd3a7b0e95f95709e53169b8abe92ad7da715a70",
+    "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-tsx.js": "d17030f8b706e6bbea0503bc67ca0339377af0c8a86fa043be73220ec64fbf60",
+    "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-typescript.js": "2864b0748ebd4a82e24df1db06054d5e01ee485309b70951aac485c68bd17d08",
     "https://esm.sh/v135/prismjs@1.29.0/denonext/prismjs.mjs": "0ccddfab01b35eb5fd1e32ee2230809343dfec5bab2ec50039aee88c5ec1e3e7",
     "https://esm.sh/v135/sanitize-html@2.8.1/esnext/sanitize-html.mjs": "f4d7c5f3b1fbe23a23a08b8cd8e8eb60c987bce0eab6e3aeec42b6139ce11008"
   },

@@ -2,7 +2,8 @@
   "__resolveType": "site/apps/deco/nuvemshop.ts",
   "accessToken": {
     "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "ba351983de1e116d95c9f70628353741ea603aa92302d2f12b014d89fcbf0a46a857946b13af62531d7863094af7f287"
+    "encrypted": "fe2bc8d24e0027c9c059895016a083ea8bdbb1352d00b2e4ac72029096394d2756ae65766a69d014fae3ed794aec42ed",
+    "name": "ACCESS_TOKEN"
   },
   "platform": "nuvemshop",
   "publicUrl": "https://feimports5.lojavirtualnuvem.com.br/",
